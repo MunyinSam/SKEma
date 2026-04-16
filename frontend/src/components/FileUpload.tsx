@@ -162,7 +162,7 @@ export function FileUpload({ onUploadComplete }: FileUploadProps) {
 								</Button>
 							</div>
 							<p className="text-xs text-muted-foreground">
-								Supported: PDF, Word, Excel, PowerPoint, ZIP, Images, Text
+								Supported: PDF, Word, Excel, PowerPoint, ZIP, Images, Text, XML
 							</p>
 						</div>
 					) : (

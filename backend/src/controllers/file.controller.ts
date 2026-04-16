@@ -40,6 +40,9 @@ const TEXT_BASED_MIME_TYPES = new Set([
 	'text/x-c++hdr',
 	'text/x-asm',
 	'text/x-assembler',
+	// XML
+	'application/xml',
+	'text/xml',
 ]);
 
 // Upload file controller

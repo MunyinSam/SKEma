@@ -24,6 +24,7 @@ const ALLOWED_MIME_TYPES = new Set([
 	'image/png',
 	'image/gif',
 	'image/webp',
+	'application/xml'
 ]);
 
 // MIME types that file-type cannot detect (text-based) — trust multer's filter
@@ -40,6 +41,7 @@ const TEXT_BASED_MIME_TYPES = new Set([
 	'text/x-c++hdr',
 	'text/x-asm',
 	'text/x-assembler',
+	'text/xml'
 ]);
 
 // Upload file controller
